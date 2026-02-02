@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Infrastructure;
+
+const string problemsRoot = "";
+
+// Dependencies
+var repository = new FileProblemRepository(problemsRoot);
+var service = new Application.ProblemService(repository);
+var ui = new ConsoleUI(service);
+
+
+
