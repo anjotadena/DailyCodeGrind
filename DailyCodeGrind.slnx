@@ -5,5 +5,11 @@
     <File Path="LICENSE.md" />
     <File Path="README.md" />
   </Folder>
-  <Project Path="DailyCodeGrind.csproj" />
+  <Folder Name="/src/">
+    <Project Path="src/Application/Application.csproj" />
+    <Project Path="src/ConsoleApp/Console.csproj" />
+    <Project Path="src/Core/Core.csproj" Id="7e286d0c-ed0e-4b97-941f-a63efbe68543" />
+    <Project Path="src/Infrastructure/Infrastructure.csproj" Id="b2505142-e45b-45b9-a78c-57168215fcee" />
+  </Folder>
+  <Folder Name="/tests/" />
 </Solution>
